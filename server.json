@@ -1,0 +1,76 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de Site",
+      "price": 1200,
+      "type": "income",
+      "category": "venda",
+      "createdAt": "2023-02-05T21:00:26.378Z"
+    },
+    {
+      "id": 2,
+      "description": "Café",
+      "price": 12.5,
+      "type": "outcome",
+      "category": "Alimentação",
+      "createdAt": "2023-02-05T21:00:30.378Z"
+    },
+    {
+      "id": 3,
+      "description": "Salário Abril",
+      "price": 1600,
+      "type": "income",
+      "category": "Alimentação",
+      "createdAt": "2023-02-05T21:00:30.378Z"
+    },
+    {
+      "id": 4,
+      "description": "Roupas",
+      "price": 600,
+      "type": "outcome",
+      "category": "Compras",
+      "createdAt": "2023-02-06T11:00:30.378Z"
+    },
+    {
+      "description": "ps5",
+      "price": 4900,
+      "category": "Compras",
+      "type": "outcome",
+      "createdAt": "2023-02-06T18:09:25.883Z",
+      "id": 5
+    },
+    {
+      "description": "Hogwarts Legacy",
+      "price": 350,
+      "category": "Compras",
+      "type": "outcome",
+      "createdAt": "2023-02-06T18:11:24.048Z",
+      "id": 6
+    },
+    {
+      "description": "Bônus empresa",
+      "price": 500,
+      "category": "Salário",
+      "type": "income",
+      "createdAt": "2023-02-06T18:32:31.101Z",
+      "id": 7
+    },
+    {
+      "description": "Churrasco",
+      "price": 300,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2023-02-06T18:33:58.145Z",
+      "id": 8
+    },
+    {
+      "description": "Inglês",
+      "price": 257,
+      "category": "Educação",
+      "type": "outcome",
+      "createdAt": "2023-02-07T00:32:13.001Z",
+      "id": 9
+    }
+  ]
+}
