@@ -1,8 +1,14 @@
 import styled from 'styled-components'
 
 export const SeachFormContainer = styled.form`
+  width: 100%;
   display: flex;
   gap: 1rem;
+  margin: 0 auto;
+
+  @media ${({ theme }) => theme.device.mobileS} {
+    gap: 0.5rem;
+  }
 
   input {
     flex: 1;
@@ -42,6 +48,19 @@ export const SeachFormContainer = styled.form`
       border-color: ${({ theme }) => theme['green-500']};
       color: ${({ theme }) => theme.white};
       transition: 0.3s;
+    }
+
+    @media ${({ theme }) => theme.device.mobileL} {
+      span {
+        display: none;
+      }
+    }
+
+    @media ${({ theme }) => theme.device.mobileS} {
+      padding: 0.25rem 0.5rem;
+      span {
+        display: none;
+      }
     }
   }
 `

@@ -44,7 +44,7 @@ export function SearchForm() {
       />
       <button disabled={isSubmitting}>
         <MagnifyingGlass size={24} />
-        Buscar
+        <span>Buscar</span>
       </button>
     </SeachFormContainer>
   )

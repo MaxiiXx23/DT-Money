@@ -11,7 +11,7 @@ export const Overlay = styled(Dialog.Overlay)`
 `
 
 export const Content = styled(Dialog.Content)`
-  min-width: 32rem;
+  width: 32rem;
   border-radius: 6px;
   padding: 2.5rem 3rem;
   background: ${({ theme }) => theme['gray-800']};
@@ -20,6 +20,27 @@ export const Content = styled(Dialog.Content)`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
+  @media ${({ theme }) => theme.device.tabletS} {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 85%;
+    transform: translate(-50%, -40%);
+  }
+
+  @media ${({ theme }) => theme.device.mobileL} {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 80%;
+    transform: translate(-50%, -40%);
+  }
+
+  @media ${({ theme }) => theme.device.mobileM} {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 70%;
+    transform: translate(-50%, -40%);
+  }
 
   form {
     margin-top: 2rem;
